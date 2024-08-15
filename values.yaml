@@ -1,0 +1,27 @@
+# Default values for secret-injector.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+serviceAccounts: []
+#  - name: test
+#    annotations:
+#      eks.amazonaws.com/role-arn: ""
+#    labels:
+#      app.kubernetes.io/name: ""
+
+sealedSecrets: []
+#  - encodedData: ""
+
+secretStores: []
+#  - name: test
+#    annotations: {}
+#    labels:
+#      app.kubernetes.io/name: ""
+#    spec: {}
+
+externalSecrets:
+#  - name: test
+#    annotations: {}
+#    labels:
+#      app.kubernetes.io/name: ""
+#    spec: {}
